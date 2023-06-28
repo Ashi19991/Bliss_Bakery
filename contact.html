@@ -6,51 +6,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
     <title>Bliss Bakery</title>
 </head>
 
 <body>
-    <header id="navbar">
-        <a id="logo" href="index.html">
-            <h1>Bliss Bakery</h1>
-        </a>
+    <section id="navbar">
         <div>
-            <nav>
-                <ul id="navigation">
-                    <li id="contact">
-                        <a class="active" href="contact.html">Contact us</a>
-                    </li>
-                    <li id="gallery">
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li id="menu">
-                        <a href="menu.html">Menu</a>
-                    </li>
-                    <li id="home">
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
-            </nav>
+            <a id="logo" href="index.html">
+                <h1>Bliss Bakery</h1>
         </div>
-    </header>
-    <div>
-        <form id="form">
-            <label for="name"> Name: </label>
-            <input id="name" type="text" placeholder="Your Name"><br>
-            <label for="email"> Email: </label>
-            <input id="email" type="text" placeholder="Your Email"><br>
-            <label for="contact"> Contact: </label>
-            <input id="contact" type="text" placeholder="Contact Number"><br>
-            <label for="message"> Message: </label><br>
-            <textarea cols="50" rows="30" name="message" placeholder="Send in your query"></textarea><br>
-            <input type=submit>
-        </form>
+        </a>
+        <nav>
+            <ul id="navigation">
+                <li id="contact">
+                    <a class="active" href="contact.html">Contact us</a>
+                </li>
+                <li id="gallery">
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li id="menu">
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li id="home">
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="contact-section">
+
+        <div class="background">
+            <h3>Get in touch with us</h3>
+            <h2 class="titles">Contact us</h2>
+            <div class="line">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p class="text">Have a question or an interest in one or more of our products? We would like to hear from
+                you!
+                We try to answer most emails
+                within 24 hours, but it can take up to two days.</p>
+        </div>
+
+        <div class="contact-body">
+            <div class="contact-info">
+                <div>
+                    <span><i class="fas fa-mobile-alt"></i></span>
+                    <span>Phone Number</span>
+                    <span class="text">0121 345 6789</span>
+                </div>
+                <div>
+                    <span><i class="fas fa-envelope-open"></i></span>
+                    <span>Email</span>
+                    <span class="text">blissbakery@outlook.com</span>
+                </div>
+                <div>
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <span>Address</span>
+                    <span class="text">Bliss Bakery <br>
+                        24 Alchester Road <br>
+                        B15 8ER
+                        <br> Birmingham</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form>
+                <h1 class="titles">
+                    Send Your Message
+                </h1>
+                <div>
+                    <input type="text" class="form-control" placeholder="First Name">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="email" class="form-control" placeholder="E-mail">
+                    <input type="text" class="form-control" placeholder="Phone">
+                </div>
+                <textarea rows="5" placeholder="Message" class="form-control"></textarea>
+                <input type="submit" class="send-btn" value="send message">
+            </form>
+
+            <div>
+                <table>
+                    <h1 class="titles">
+                        Opening Hours
+                    </h1>
+                    <tr>
+                        <th>Monday:</th>
+                        <td> 9am-5pm </td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>9am-5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>9am-5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>9am-5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>9am-5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>9am-5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>9am-5pm</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223700.1490386933!2d-97.11558670486288!3d28.829485511234168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864266db2e2dac3b%3A0xeee20d566f63267d!2sVictoria%2C%20TX%2C%20USA!5e0!3m2!1sen!2snp!4v1604921178092!5m2!1sen!2snp"
+                width="100%" height="450" allowfullscreen="" frameborder="0" style="border:0;" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </section>
     </div>
-    <section>Reasons to love us- text and images</section>
-    <section>map and address(find us)</section>
 
-
+    <footer>
+        <div class="contact-footer">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="https://en-gb.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/?lang=en" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+            </div>
+        </div>
+    </footer>
 </body>
-<footer>social media and extra</footer>
 
 </html>
