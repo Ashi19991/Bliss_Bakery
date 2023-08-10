@@ -322,8 +322,6 @@ table {
     position: relative;
 }
 
-
-
 .contact-footer {
     padding: 2rem 0;
     background: #b58e62;
@@ -360,6 +358,148 @@ table {
     border-color: #c6a785;
 }
 
+/* Abous us*/
+
+.about-us-body {
+    /*max-width: 1320px;*/
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.about-us {
+    margin: 1rem 0;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.about-us span {
+    display: block;
+}
+
+.about-us img {
+    width: 70%;
+    height: 70%;
+}
+
+.about-us div {
+    margin: 1.5rem 0;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-body .text {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-us {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-us {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*Reviews*/
+
+.reviews-body {
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 2rem;
+    width: min(95%, 500rem);
+    margin-inline: auto;
+}
+
+.reviews-container {
+    padding: 20px;
+    margin: 1.5px;
+    padding: 20px;
+    border: 1.5px solid #b58e62;
+    border-radius: 5px;
+    /*width: 500px;
+    background-color: #b58e62;
+    box-shadow:2px 2px 30ox rgba(0,0,0,0.1)*/
+}
+
+.reviews-container-big {
+    padding: 20px;
+    margin: 1.5px;
+    padding: 20px;
+    border: 1.5px solid #b58e62;
+    border-radius: 5px;
+    /*width: 500px;
+    background-color: #b58e62;
+    box-shadow:2px 2px 30ox rgba(0,0,0,0.1)*/
+}
+
+.reviews-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.reviews-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: center;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer h1 {
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.customer span {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.rating {
+    color: #b58e62;
+}
+
+.reviews-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comments p {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-body {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .reviews-container:last-child {
+        grid-column-start: 4;
+        grid-row: 1 / span 2;
+    }
+
+    .reviews-container-big {
+        grid-column: span 2;
+    }
+}
+
+/* Contact Info */
+
 @media screen and (min-width: 768px) {
     .background .text {
         width: 70%;
@@ -387,6 +527,6 @@ table {
 
 @media screen and (min-width: 1200px) {
     .contact-info {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
