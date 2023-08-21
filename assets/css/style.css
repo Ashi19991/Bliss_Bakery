@@ -125,11 +125,7 @@ h1 {
     animation-delay: 15s;
 }
 
-@media screen and (min-width:320px) and (max-width:425px) {
-    .slide-show {
-        height: 15rem;
-    }
-}
+
 
 /*Slide show ends here*/
 #about-content {
@@ -528,5 +524,73 @@ table {
 @media screen and (min-width: 1200px) {
     .contact-info {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Meet our Bakers */
+
+.meet-our-bakers-wrapper {
+    /*max-width: 1320px;*/
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.meet-our-bakers-body {
+    margin: 1rem 0;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+/*.meet-our-bakers-body div {
+    margin: 1.5rem 0;
+    padding: 1rem;
+}*/
+
+.meet-our-bakers-video-container {
+    margin: 0 auto;
+    margin: 1.5rem 0;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    /*width: 50%;*/
+}
+
+.meet-our-bakers-video-body {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.meet-our-bakers-video-container iframe {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.meet-our-bakers-text {
+    margin: 1.5rem 0;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .meet-our-bakers-wrapper .text {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .meet-our-bakers-body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .meet-our-bakers-body {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
