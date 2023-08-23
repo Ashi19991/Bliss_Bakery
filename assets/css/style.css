@@ -429,7 +429,7 @@ h1 {
 
 /* Abous us*/
 
-.about-us-body {
+.about-us-wrapper {
     /*max-width: 1320px;*/
     margin: 0 auto;
     padding: 0 1rem;
@@ -456,7 +456,7 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-    .about-us-body .text {
+    .about-us-wrapper .text {
         width: 70%;
         margin-left: auto;
         margin-right: auto;

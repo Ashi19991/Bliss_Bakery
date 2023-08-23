@@ -6,6 +6,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
@@ -35,24 +37,36 @@
         </div>
     </header>
 
-    <!-- Slide show container -->
+    <!-- 
+        This is the 'slide show' section 
+        This section will have 4 pictures which loops from the fourth image to the first image 
+    -->
     <div class="slide-show">
-        <img src="assets/images/Bake1.jpg" alt="Cookies" />
-        <img src="assets/images/cookies.jpg" alt="Star Cookies" />
+        <!-- This is the 'slide show' container -->
+        <img src="assets/images/Bake1.jpg" alt="Cookies" /><!-- This is the first image for the slideshow -->
+        <img src="assets/images/cookies.jpg" alt="Star Cookies" /><!-- This is the second image for the slideshow -->
         <img src="assets/images/Bake.jpg" alt="Freshly Baked Cookies" />
-        <img src="assets/images/process.jpg" alt="Baking Process" />
-    </div>
+        <!-- This is the third image for the slideshow -->
+        <img src="assets/images/process.jpg" alt="Baking Process" /><!-- This is the fourth image for the slideshow -->
+    </div><!-- #slide-show -->
 
+    <!-- 
+        This is the 'about us' section
+        This section contains information about Bliss Bakery's background, i.e when and how they started, their mission statement etc.
+     -->
     <section>
-        <div class="about-us-body">
-            <br>
-            <h1 class="titles">Our Story</h1>
+        <div class="about-us-wrapper">
+            <!-- This is the about us wrapper -->
+            <h1 class="titles">Our Story</h1><!-- This is the title for 'about us'section -->
             <div class="about-us">
+                <!-- 
+                    This contains information about Bliss Bakery e when and how they started, their mission statement etc. 
+                -->
                 We are Bliss Bakery and we are obsessed with baking cakes, pastries and desserts.
-                <br />
+                <br><!-- Added a break here to add a new line to the text -->
                 With this pure, sweet sentiment, we founded our company and opened our first store 80 years ago! Yes
                 that long!
-                <br />
+                <br><!-- Added a break here to add a new line to the text -->
                 We are delighted to help our
                 guests
                 celebrate and spoil themselves everyday! We offer an incredible range of baked treats. Cupcakes,
@@ -61,20 +75,34 @@
                 brownies, pies, cheesecakes… or perhaps the Weekly special ? Honestly, we don’t think you can go
                 wrong.
                 <div>
+                    <!-- This is the image wrapper -->
                     <span>
+                        <!-- This is a span for the image-->
                         <img src="assets/images/cupcakes4.jpg" alt="cakes">
-                    </span>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <!--
+                            This is the image for about us, it shows a picture of the staff member baking a cake
+                        -->
+                    </span><!-- This is the end of span-->
+                </div><!-- This is the end of the image wrapper-->
+            </div><!-- #about-us -->
+        </div><!-- #about-us-wrapper -->
+    </section><!-- This is the end of'about us' section -->
 
+    <!-- 
+        This is the 'meet our bakers' section
+        This section contains information about the bakers experience working with Bliss Bakery 
+        It also cointains a video of a bakers expirence working and their typical day at the bakery
+    -->
     <section>
         <div class="meet-our-bakers-wrapper">
-            <br>
-            <h1 class="titles">Meet Our Bakers</h1>
+            <!-- This is the meet our bakers wrapper -->
+            <h1 class="titles">Meet Our Bakers</h1><!-- This is the title for 'meet our bakers' section -->
             <div class="meet-our-bakers-body">
+                <!-- This is where the body of meet our bakers will be -->
                 <div class="meet-our-bakers-video-container">
+                    <!-- 
+                        This will be the container for the video of a bakers expirence working and their typical day at the bakery 
+                    -->
                     <div class="meet-our-bakers-video-body">
                         <iframe src="https://www.youtube.com/embed/v_r09XgO-Jc?start=8&autoplay=1&mute=1"
                             title="Meet Our Bakers" frameborder="0"
@@ -82,7 +110,7 @@
                             allowfullscreen>
                         </iframe>
                     </div>
-                </div>
+                </div><!-- #meet-our-bakers-video-container -->
                 <div class="meet-our-bakers-text">
                     We are Bliss Bakery and we are obsessed with baking cakes, pastries and desserts.
                     <br />
@@ -97,9 +125,9 @@
                     brownies, pies, cheesecakes… or perhaps the Weekly special ? Honestly, we don’t think you can go
                     wrong.
                 </div>
-            </div>
-        </div>
-    </section>
+            </div><!-- #meet-our-bakers-body -->
+        </div><!-- #meet-our-bakers-wrapper -->
+    </section><!-- This is the end end of 'meet our bakers' section -->
 
     <section>
         <h1 class="titles">Reviews</h1>
